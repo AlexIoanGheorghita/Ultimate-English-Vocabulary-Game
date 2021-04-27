@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title">36dp</dimen>
+    <dimen name="title2">30dp</dimen>
+    <dimen name="buttons">23dp</dimen>
+    <dimen name="buttons_width">240dp</dimen>
+    <dimen name="buttons_height">60dp</dimen>
+    <dimen name="subtitle">20dp</dimen>
+    <dimen name="textViews">25dp</dimen>
+    <dimen name="buttons2">25dp</dimen>
+    <dimen name="score">40dp</dimen>
+
+    <dimen name="title_large">72dp</dimen>
+    <dimen name="title2_large">60dp</dimen>
+    <dimen name="buttons_large">46dp</dimen>
+    <dimen name="buttons_width_large">480dp</dimen>
+    <dimen name="buttons_height_large">120dp</dimen>
+    <dimen name="subtitle_large">40dp</dimen>
+    <dimen name="textViews_large">50dp</dimen>
+    <dimen name="buttons2_large">50dp</dimen>
+    <dimen name="score_large">80dp</dimen>
+</resources>

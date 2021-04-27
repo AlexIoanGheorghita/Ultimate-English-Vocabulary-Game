@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listx">
+        <item>xenon</item>
+        <item>xenophobe</item>
+        <item>xenophobia</item>
+        <item>xenophobic</item>
+        <item>xerox</item>
+        <item>xylophone</item>
+        <item>xyloid</item>
+    </string-array>
+</resources>

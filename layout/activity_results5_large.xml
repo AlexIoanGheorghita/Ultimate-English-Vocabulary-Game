@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".ResultsActivity5">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:orientation="horizontal"
+            android:weightSum="2.00">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.10">
+
+                <ProgressBar
+                    android:id="@id/myProgressBar5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:indeterminateOnly="false"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/progressbar"
+                    android:rotation="-90">
+
+                </ProgressBar>
+
+                <TextView
+                    android:id="@+id/percent5"
+                    android:text="0%"
+                    android:textSize="30dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_alignStart="@id/myProgressBar5"
+                    android:layout_alignEnd="@id/myProgressBar5"
+                    android:layout_alignBottom="@id/myProgressBar5"
+                    android:layout_alignTop="@id/myProgressBar5" >
+
+                </TextView>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="15dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.90"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@id/txtGradeMessage5"
+                    android:textColor="@color/darkGray"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:gravity="center"
+                    android:text="OK"
+                    android:textSize="50dp">
+
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@id/wordsUsed5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/resultsbackground"
+                    android:gravity="center"
+                    android:text="Words\nused:"
+                    android:textSize="45dp"
+                    android:textColor="@color/white">
+
+                </TextView>
+
+                <TextView
+                    android:id="@id/totalPoints5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/resultsbackground"
+                    android:gravity="center"
+                    android:text="Total\npoints:"
+                    android:textSize="45dp"
+                    android:textColor="@color/white">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@id/longestWord5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/resultsbackground"
+                    android:gravity="center"
+                    android:text="Longest\nword:"
+                    android:textSize="45dp"
+                    android:textColor="@color/white">
+
+                </TextView>
+
+                <TextView
+                    android:id="@id/shortestWord5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/resultsbackground"
+                    android:gravity="center"
+                    android:text="Shortest\nword:"
+                    android:textSize="45dp"
+                    android:textColor="@color/white">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/next5"
+                    android:layout_width="250dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/customtextview"
+                    android:text="Continue"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="40dp"
+                    android:layout_marginBottom="20dp"/>
+
+                <com.google.android.gms.ads.AdView
+                    android:id="@+id/adView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    app:adSize="BANNER"
+                    app:adUnitId="ca-app-pub-3940256099942544/6300978111"
+                    android:layout_marginBottom="0dp">
+
+                </com.google.android.gms.ads.AdView>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

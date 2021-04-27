@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listz">
+        <item>zambia</item>
+        <item>zambian</item>
+        <item>zany</item>
+        <item>zanzibar</item>
+        <item>zanzibari</item>
+        <item>zap</item>
+        <item>zappy</item>
+        <item>zealot</item>
+        <item>zealous</item>
+        <item>zealotry</item>
+        <item>zebra</item>
+        <item>zenith</item>
+        <item>zenithal</item>
+        <item>zephyr</item>
+        <item>zeppelin</item>
+        <item>zero</item>
+        <item>zeroth</item>
+        <item>zigzag</item>
+        <item>zillion</item>
+        <item>zimbabwe</item>
+        <item>zimbabwean</item>
+        <item>zinc</item>
+        <item>zing</item>
+        <item>zinger</item>
+        <item>zingy</item>
+        <item>zip</item>
+        <item>zipper</item>
+        <item>zippy</item>
+        <item>zircon</item>
+        <item>zirconium</item>
+        <item>zodiac</item>
+        <item>zodiacal</item>
+        <item>zombie</item>
+        <item>zonal</item>
+        <item>zone</item>
+        <item>zoo</item>
+        <item>zookeeper</item>
+        <item>zoological</item>
+        <item>zoologist</item>
+        <item>zoology</item>
+        <item>zoom</item>
+        <item>zucchini</item>
+        <item>zumba</item>
+        <item>zygote</item>
+        <item>zygotic</item>
+    </string-array>
+</resources>
